@@ -7,3 +7,4 @@ before_install:
 script:
     - image="manishgit138/mytest"
     - docker build -t "$image" .
+    - docker images
